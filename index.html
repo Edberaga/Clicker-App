@@ -3,13 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>replit</title>
+    <title>Clicker App by Edberaga</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <main>
-      
+      <h1>Clicker App</h1>
+      <p id="count">0</p>
+      <div class="button-list">
+        <button onclick="addNum()">+</button>
+        <button onclick="addNum(5)">+ 5</button>
+        <button onclick="minNum()">-</button>
+        <button onclick="minNum(5)">- 5</button>
+        <button onclick="reset()">Reset</button>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
